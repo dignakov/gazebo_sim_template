@@ -17,7 +17,7 @@ A few launch files:
 
 `robot.urdf` contains all the basic structure for a robot like the amiga.
 
-Adjust dimentions and inertia parameters, as well as the joint positions to match the real system.
+Adjust dimensions and inertia parameters, as well as the joint positions to match the real system.
 
 The Clearpath package is a good source for how to use the proper visual meshes (https://github.com/husky/husky/tree/noetic-devel/husky_description), for example:
 
@@ -59,7 +59,7 @@ Everything was included in the urdf. It's more common to have several xacro file
 
 Minimal config examples, just enough to see the robot in rviz, and to use ros-control.
 
-Effort controllers are the default in gazebo, inididual joints can be controllerd, or one controller can be used for groups of joints. Not all controllers are available in a group version (https://wiki.ros.org/ros_control)
+Effort controllers are the default in gazebo, individual joints can be controlled, or one controller can be used for groups of joints. Not all controllers are available in a group version (https://wiki.ros.org/ros_control)
 
 
 
